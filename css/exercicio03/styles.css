@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+                                              /*HEADER*/
+header {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid #000000;
+}
+
+header * {
+    margin-bottom: 10px;
+}
+
+header h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+                                              /*MAIN*/
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+main p {
+    margin-bottom: 20px;
+}
+
+main button {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 30px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-weight: bold;
+    border: none;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+main img {
+    width: 400px;
+    margin-bottom: 40px;
+}
+
+.paragrafoExplore {
+    margin-bottom: 40px;
+}
+
+.buttonBlueExplore {
+    background-color: #43abf6;
+    text-transform: capitalize;
+    font-weight: 200;
+    margin-bottom: 50px;
+}
+
+footer {
+    padding: 50px;
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+}
