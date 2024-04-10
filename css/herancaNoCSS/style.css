@@ -1,0 +1,19 @@
+header {
+    background-color: #232323; /*aplicando no header, mas o itens filhos, vão receber essas propriedades*/
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    /* Lembrar que algumas propriedades são herdadas, outras não */
+}
+
+.parent {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25rem;
+}
+
+/* Geralmente as propriedades que são herdadas, são somente as de cores e tamanho, outras é mais complicado de puxas */
+
+.child {
+    font-size: 2rem;
+    color: aquamarine;
+}
